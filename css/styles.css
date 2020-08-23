@@ -1,0 +1,13 @@
+.progress {
+  margin-top: 20px;
+}
+.button-wrapper {
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+  flew-wrap: wrap;
+  justify-content: space-between;
+}
+.button-wrapper button {
+  width: 30%;
+}
