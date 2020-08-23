@@ -1,9 +1,13 @@
 const changeButton1 = $('.butn1');
 const changeButton2 = $('.butn2');
 const changeButton3 = $('.butn3');
+const proBar = $("#my-progress-bar");
+let percantage = 0;
 
-function handleData(procent) {
-  $("#my-progress-bar").width(procent)
+function handleData(percent) {
+  percantage = parseInt(percantage) + parseInt(percent)
+  let percantageText = percantage + "%";
+  proBar.width(percantageText);
 }
 
 changeButton1.click(function() {
